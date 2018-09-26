@@ -14,10 +14,10 @@ Leafcutter quantifies RNA splicing variation using short-read RNA-seq data. The 
 
 For details please see our [bioRxiv preprint](http://www.biorxiv.org/content/early/2017/09/07/044107)
 
-* [Installation](./articles/Installation.html)
-* [Differential splicing](./articles/Installation.html)
-* [Visualization](./articles/Visualization.html)
-* [SplicingQTL](./articles/sQTL.html)
+* [Installation](./vignettes/Installation.Rmd)
+* [Differential splicing](./vignettes/Usage.Rmd)
+* [Visualization](./vignettes/Visualization.Rmd)
+* [SplicingQTL](./vignettes/sQTL.Rmd)
 
 Check out a demo leafcutter [shiny](https://shiny.rstudio.com/) app [here](https://leafcutter.shinyapps.io/leafviz/): 10 brain vs. 10 heart samples from [GTEx](https://www.gtexportal.org/home/). 
 
