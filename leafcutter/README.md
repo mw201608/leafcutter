@@ -22,3 +22,12 @@ For details please see our [bioRxiv preprint](http://www.biorxiv.org/content/ear
 Check out a demo leafcutter [shiny](https://shiny.rstudio.com/) app [here](https://leafcutter.shinyapps.io/leafviz/): 10 brain vs. 10 heart samples from [GTEx](https://www.gtexportal.org/home/). 
 
 We have a Google group for user questions at <https://groups.google.com/forum/#!forum/leafcutter-users>
+
+### Install
+This version is modified for adapting R in Windows OS. To install, run the following in a R window:
+```devtools:::install_github('mw201608/leafcutter/leafcutter')```
+
+### To visualize your results using an online leafviz shiny app
+https://network.shinyapps.io/leafviz/
+
+This app is set up just for a relatively small dataset. Please do not upload a large leafviz result file (say larger than 100MB) otherwise the server may be overwhelmed.
