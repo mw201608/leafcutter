@@ -1,15 +1,11 @@
-Package: leafcutter
+Package: leafcutterShiny
 Type: Package
-Title: Modified Package for Shiny Display of Leafcutter Analysis Results
+Title: Shiny Display of Leafcutter Analysis Results
 Version: 0.2.7.1
 Date: 2021-01-29
-Authors@R: c(person("David", "Knowles", email = "knowles84@gmail.com", role = c("aut", "cre")),
-              person("Yang", "Li", role = c("aut", "cre")),
-			  person("Jack", "Humphrey", role = c("aut", "cre")),
-              person("Jonathan", "Pritchard", role = "aut"))
 Author: David A. Knowles, Yang Li, Jonathan Pritchard
-Maintainer: David A. Knowles <knowles84@gmail.com>
-Description: Alternative Splicing Quantification, Differential Splicing and Splicing QTL Mapping
+Maintainer: Minghui Wang <m.h.wang@live.com>
+Description: Visualizing Alternative Splicing, Differential Splicing
 License: GPL (>= 3)
 Depends:
     R (>= 3.0.2)
