@@ -1,7 +1,0 @@
-add_chr	add_chr
-get_intron_meta	get_intron_meta
-leaf_cutter_effect_sizes	leaf_cutter_effect_sizes
-logistic	logistic
-make_differential_splicing_plot	make_differential_splicing_plot
-map_clusters_to_genes	map_clusters_to_genes
-multiqq	multiqq
