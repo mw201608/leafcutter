@@ -1,0 +1,33 @@
+# LeafCutter: Annotation-free quantification of RNA splicing
+
+<img src="./logo.png" width="200"> 
+
+[Yang I. Li](http://web.stanford.edu/~yangili/index.html)<sup>1</sup>, [David A. Knowles](http://cs.stanford.edu/people/davidknowles/)<sup>1</sup>, Jack Humphrey, Alvaro N. Barbeira, Scott P. Dickinson, Hae Kyung Im, [Jonathan K. Pritchard](http://web.stanford.edu/group/pritchardlab/home.html)
+
+<sup>1</sup>*Equal contribution*
+
+Leafcutter quantifies RNA splicing variation using short-read RNA-seq data. The core idea is to leverage spliced reads (reads that span an intron) to quantify (differential) intron usage across samples. The advantages of this approach include
+* easy detection of novel introns
+* modeling of more complex splicing events than exonic PSI
+* avoiding the challenge of isoform abundance estimation
+* simple, computationally efficient algorithms scaling to 100s or even 1000s of samples
+
+For details please see our [bioRxiv preprint](http://www.biorxiv.org/content/early/2017/09/07/044107)
+
+* [Installation](./vignettes/Installation.Rmd)
+* [Differential splicing](./vignettes/Usage.Rmd)
+* [Visualization](./vignettes/Visualization.Rmd)
+* [SplicingQTL](./vignettes/sQTL.Rmd)
+
+Check out a demo leafcutter [shiny](https://shiny.rstudio.com/) app [here](https://leafcutter.shinyapps.io/leafviz/): 10 brain vs. 10 heart samples from [GTEx](https://www.gtexportal.org/home/). 
+
+We have a Google group for user questions at <https://groups.google.com/forum/#!forum/leafcutter-users>
+
+### Install
+This version is modified for adapting R in Windows OS. To install, run the following in a R window:
+```devtools:::install_github('mw201608/leafcutter/leafcutter')```
+
+### To visualize your results using an online leafviz shiny app
+https://network.shinyapps.io/leafviz/
+
+This app is set up just for a relatively small dataset. Please do not upload a large leafviz result file (say larger than 100MB) otherwise the server may be overwhelmed.

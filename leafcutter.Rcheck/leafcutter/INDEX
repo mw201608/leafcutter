@@ -1,0 +1,12 @@
+add_chr                 Adding "chr" if it's not present
+get_intron_meta         Make a data.frame of meta data about the
+                        introns
+leaf_cutter_effect_sizes
+                        Per intron effect sizes
+logistic                logistic (sigmoid) function
+make_differential_splicing_plot
+                        Make sashimi-esque plot with ggplot2
+map_clusters_to_genes   Work out which gene each cluster belongs to.
+                        Note the chromosome names used in the two
+                        inputs must match.
+multiqq                 Plot multiple qq plot for p-values

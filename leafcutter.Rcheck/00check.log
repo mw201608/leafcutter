@@ -1,0 +1,160 @@
+* using log directory 'C:/Users/mhwan/Desktop/leafcutter/leafcutter.Rcheck'
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using option '--as-cran'
+* checking for file 'leafcutter/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'leafcutter' version '0.2.7.1'
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: 'David A. Knowles <knowles84@gmail.com>'
+
+New submission
+
+Package has a VignetteBuilder field but no prebuilt vignette index.
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'leafcutter' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+Authors@R field gives more than one person with maintainer role:
+  David Knowles <knowles84@gmail.com> [aut, cre]
+  Yang Li [aut, cre]
+  Jack Humphrey [aut, cre]
+Author field differs from that derived from Authors@R
+  Author:    'David A. Knowles, Yang Li, Jonathan Pritchard'
+  Authors@R: 'David Knowles [aut, cre], Yang Li [aut, cre], Jack Humphrey [aut, cre], Jonathan Pritchard [aut]'
+
+Maintainer field differs from that derived from Authors@R
+  Maintainer: 'David A. Knowles <knowles84@gmail.com>'
+  Authors@R:  'David Knowles <knowles84@gmail.com>'
+
+* checking top-level files ... WARNING
+Conversion of 'README.md' failed:
+[WARNING] This document format requires a nonempty <title> element.
+  Defaulting to 'README' as the title.
+  To specify a title, use 'title' in metadata or --metadata title="...".
+File ./logo.png not found in resource path
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking use of S3 registration ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+bh: no visible global function definition for 'p.adjust'
+fisherCombined: no visible global function definition for 'pchisq'
+mahalanobis_outlier: no visible global function definition for 'cov'
+mahalanobis_outlier: no visible global function definition for
+  'mahalanobis'
+mahalanobis_outlier: no visible global function definition for 'pchisq'
+make_cluster_plot: no visible binding for global variable 'tis'
+make_cluster_plot: no visible binding for global variable 'xtext'
+make_cluster_plot: no visible binding for global variable 'ytext'
+make_cluster_plot: no visible binding for global variable 'Group'
+make_cluster_plot: no visible binding for global variable 'verdict'
+make_cluster_plot: no visible binding for global variable 'log10counts'
+make_cluster_plot: no visible binding for global variable 'label'
+make_cluster_plot: no visible binding for global variable 'xend'
+make_cluster_plot: no visible binding for global variable 'yend'
+make_differential_splicing_plot: no visible binding for global variable
+  'tis'
+make_differential_splicing_plot: no visible binding for global variable
+  'Group'
+make_differential_splicing_plot: no visible binding for global variable
+  'log10counts'
+make_differential_splicing_plot: no visible binding for global variable
+  'Sequence'
+make_differential_splicing_plot: no visible binding for global variable
+  'xend'
+make_differential_splicing_plot: no visible binding for global variable
+  'yend'
+make_differential_splicing_plot: no visible binding for global variable
+  'label'
+make_gene_plot: no visible global function definition for
+  'str_split_fixed'
+make_gene_plot: no visible binding for global variable 'clu'
+make_gene_plot: no visible binding for global variable 'ytext'
+make_gene_plot: no visible binding for global variable 'Group'
+make_gene_plot: no visible binding for global variable 'deltaPSI'
+make_gene_plot: no visible binding for global variable 'x'
+make_gene_plot: no visible binding for global variable 'y'
+make_gene_plot: no visible binding for global variable 'xend'
+make_gene_plot: no visible binding for global variable 'yend'
+make_gene_plot: no visible binding for global variable 'middle'
+make_gene_plot: no visible binding for global variable 'labelY'
+make_gene_plot: no visible global function definition for
+  'geom_text_repel'
+make_gene_plot: no visible binding for global variable 'label'
+map_clusters_to_genes: no visible binding for global variable 'chr'
+map_clusters_to_genes: no visible binding for global variable 'clu'
+map_clusters_to_genes: no visible binding for global variable
+  'gene_name'
+multiqq: no visible global function definition for 'runif'
+multiqq: no visible global function definition for 'qqplot'
+multiqq: no visible binding for global variable 'i'
+multiqq: no visible binding for global variable 'x'
+multiqq: no visible binding for global variable 'y'
+multiqq: no visible binding for global variable 'group'
+pqplotHelper: no visible global function definition for 'qqplot'
+pqplotHelper: no visible global function definition for 'runif'
+Undefined global functions or variables:
+  Group Sequence chr clu cov deltaPSI gene_name geom_text_repel group i
+  label labelY log10counts mahalanobis middle p.adjust pchisq qqplot
+  runif str_split_fixed tis verdict x xend xtext y yend ytext
+Consider adding
+  importFrom("stats", "cov", "mahalanobis", "p.adjust", "pchisq",
+             "qqplot", "runif")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... WARNING
+Missing link or links in documentation object 'leaf_cutter_effect_sizes.Rd':
+  'differential_splicing'
+
+See section 'Cross-references' in the 'Writing R Extensions' manual.
+
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'make_cluster_plot' 'make_gene_plot'
+All user-level objects in a package should have documentation entries.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... WARNING
+Functions or methods with usage in documentation object 'leaf_cutter_effect_sizes' but not in code:
+  'leaf_cutter_effect_sizes'
+
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... NONE
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+* checking PDF version of manual without hyperrefs or index ... ERROR
+Re-running with no redirection of stdout/stderr.
+* checking for code which exercises the package ... WARNING
+No examples, no tests, no vignettes
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 1 ERROR, 6 WARNINGs, 3 NOTEs
